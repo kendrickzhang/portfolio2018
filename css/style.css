@@ -13,3 +13,52 @@
     border: 0.1em solid #333;
     margin: 1em auto;
 }
+
+#main-header #header-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/header-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#main-header h1 {
+    color: maroon;
+    margin: 5em auto 0.25em auto;
+}
+
+#main-header h3 {
+    color: maroon;
+    margin: 0 auto 3em auto;
+}
+
+#main-header .btn-panel {
+    border: 0.1em solid maroon;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a i {
+    color: royalblue;
+    font-size: 2em;
+}
+
+#main-header .header-scroll {
+    border: 0.1em solid maroon;
+    font-size: 0.75em;
+    text-align: center;
+    position: absolute;
+    bottom: 0.25em;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
