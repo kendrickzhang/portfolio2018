@@ -1,0 +1,15 @@
+#main-header,
+#main-content,
+#main-footer {
+    width: 100%;
+    min-height: 100vh;
+    border: 0.1em solid #333;
+}
+
+#section-about,
+#section-projects {
+    width: 90%;
+    height: 100vh;
+    border: 0.1em solid #333;
+    margin: 1em auto;
+}
