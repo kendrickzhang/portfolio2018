@@ -41,11 +41,15 @@ function showcase() {
         const projectLink = document.createElement('a');
         projectLink.classList.add('btn');
         projectLink.setAttribute('href', `${project.host}`);
+        projectLink.target = '_blank';
+        projectLink.rel = 'noopener noreferrer';
         projectLink.innerHTML = 'View App';
 
         const projectRepo = document.createElement('a');
         projectRepo.classList.add('btn');
         projectRepo.setAttribute('href', `${project.repo}`);
+        projectRepo.target = '_blank';
+        projectRepo.rel = 'noopener noreferrer';
         projectRepo.innerHTML = 'View Code';
 
         targetDiv.appendChild(projectDiv);
