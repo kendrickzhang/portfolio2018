@@ -1,6 +1,6 @@
+/* General Section Properties */
 #main-header,
-#main-content,
-#main-footer {
+#main-content {
     width: 100%;
     min-height: 100vh;
     border: 0.1em solid #333;
@@ -9,11 +9,55 @@
 #section-about,
 #section-projects {
     width: 95%;
-    height: 100%;
+    min-height: 100vh;
     border: 0.1em solid #333;
     margin: 1em auto;
 }
 
+#main-footer {
+    width: 100%;
+    min-height: 40vh;
+    border: 0.1em solid;
+    padding: 0;
+}
+
+/* Button Properties */
+.btn-panel {
+    border: 0.1em solid maroon;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+a {
+    border: 0.1em solid #333;
+    border-radius: 0.25em;
+    color: #333;
+    font-size: 1em;
+}
+
+a i {
+    color: royalblue;
+    font-size: 2.5em;
+}
+
+a i:hover {
+    color: red;
+}
+
+#main-content a:hover {
+    background: #333;
+    color: #fff;
+}
+
+main .btn {
+    margin: auto 1.5em;
+    padding: 0.5em 0.5em;
+}
+
+/* Header Properties */
 #main-header #header-bg {
     width: 100%;
     height: 100vh;
@@ -39,19 +83,6 @@
     margin: 0 auto 3em auto;
 }
 
-#main-header .btn-panel {
-    border: 0.1em solid maroon;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-a i {
-    color: royalblue;
-    font-size: 2em;
-}
-
 #main-header .header-scroll {
     border: 0.1em solid maroon;
     font-size: 0.75em;
@@ -64,20 +95,31 @@ a i {
     margin-right: auto;
 }
 
+/* About Section Properties */
+#section-about .main-wrap {
+    width: 100%;
+    height: auto;
+}
+
 #section-about h1 {
     color: blue;
-    margin: 2em auto 0.5em auto;
+    margin: 2.5em auto 1em auto;
 }
 
 #section-about p {
     border: 0.1em solid #333;
     color: blue;
-    font-size: 1.2em;
-    text-align: justify;
-    margin: 0 0.5em 3em 0.5em;
+    font-size: 1em;
+    text-align: left;
+    /* margin: 0 0.25em 0 0.25em; */
     padding: 0.5em 0.5em;
 }
 
+#section-about .p2 {
+    margin-bottom: 1.25em;
+}
+
+/* Projects Section Properties */
 #section-projects h1 {
     color: green;
     margin: 1.5em auto 0.5em auto;
@@ -92,26 +134,30 @@ a i {
     height: auto;
     border: 0.1em solid red;
     border-radius: 0.25em;
-    margin: 0.5em 0.25em;
-    padding: 1.2em 0.5em;
+    margin: 1em auto;
+    padding: 1.25em 0.5em;
 }
 
 .this-project img {
     border: 0.1em solid #333;
-    margin: 1em auto;
+    margin: 1.25em auto;
     border-radius: 0.25em;
 }
 
-.this-project a {
-    color: #333;
+/* Footer Properties */
+#main-footer .footer-wrap {
+    width: 100%;
+    height: 40vh;
+    border: 0.1em solid aqua;
+}
+
+#main-footer h3 {
+    margin: 2em auto;
+}
+
+#main-footer p {
+    text-align: center;
     font-size: 1em;
-    border: 0.1em solid green;
-    margin: 1em 1em;
-    padding: 0.5em 0.5em;
-    border-radius: 0.25em;
 }
 
-.this-project a:hover {
-    background: #333;
-    color: #fff;
-}
+
