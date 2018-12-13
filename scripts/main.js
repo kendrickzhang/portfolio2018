@@ -18,7 +18,7 @@ const myProjects = [
         img: '../images/wdiP2.png'
     },
     {
-        name: 'Test-Your-Memery Game',
+        name: 'Test-Your-MEMEry Game',
         host: 'https://kennyzhan9.github.io/Test-Your-Memery-Game/',
         repo: 'https://github.com/kennyzhan9/Test-Your-Memery-Game',
         img: '../images/wdiP1.png'
